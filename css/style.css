@@ -9,7 +9,7 @@
 /* UTILITIES */
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;  
 }
 .flex2{
@@ -25,10 +25,17 @@
 /* ---------------------------------------- */
 
 /* NAV BAR */
-.nav-background{
+.nav-container{
+    background-color: brown;
     height: 100px;
+}
+.nav-background{
+    
+    width: 50%;
     /* debug */
-    background-color: rgb(107, 30, 30); 
+    background-color: rgb(255, 237, 124); 
+    padding: 10px;
+    border: dashed ;
 }
 
 .header-nav ul{
@@ -118,5 +125,28 @@
     height: 350px;
     background-color: rgb(255, 181, 132);
     border: dashed white;
+
+}
+/* ------------------------------------------------------------------ */
+/* footer */
+
+footer{
+    background-color: rgb(33, 31, 49);
+    height: 50px;
+}
+.footer{
+    width: 50%;
+    background-color: antiquewhite;
+    padding: 10px 0;
+}
+.footer-logo{
+    background-color: lightsalmon;
+    border: dashed black;
+    padding: 3px;
+}
+.footer-button{
+    background-color: lightsalmon;
+    border: dashed black;
+    padding: 3px;
 
 }
