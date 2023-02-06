@@ -25,18 +25,23 @@
 /* ---------------------------------------- */
 
 /* NAV BAR */
+
+
+
 .nav-container{
     background-color: brown;
     height: 100px;
-}
-.nav-background{
     
-    width: 50%;
-    /* debug */
-    background-color: rgb(255, 237, 124); 
-    padding: 10px;
-    border: dashed ;
 }
+
+.nav-background{
+    width: 50%;
+    background-color: rgb(255, 237, 124);
+    padding: 10px;
+    
+}
+
+
 
 .header-nav ul{
     list-style: none;
