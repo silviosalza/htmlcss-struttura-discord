@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* -------------------------------------------- */
 
 /* UTILITIES */
 .flex{
@@ -13,9 +13,10 @@
     align-items: center;  
 }
 .container{
-    height: 600px;
+    height: 400px;
 
 }
+/* ---------------------------------------- */
 
 /* NAV BAR */
 .nav-background{
@@ -30,6 +31,7 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+/* ---------------------------------------- */
 
 /* HOMEPAGE */
 .homepage{
@@ -38,10 +40,58 @@
 .first-box{
     background-color: lightpink;
     width: 50%;
+    height: 320px;
+    border: dashed black;
+}
+/* ------------------------------------------- */
+
+/* 1° 2° and 3° section */
+.first-sec{
+    background-color: grey;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-sec{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-sec{
+    background-color: grey;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 20%;
+    height: 320px;
+    background-color: lightcoral;
+    border: dashed black;
+}
+.info{
+    width: 30%;
+    height: 320px;
+    background-color: lightgoldenrodyellow;
+    border: dashed black;
+}
+/* ---------------------------------------------- */
+
+/* 4° section */
+
+.fourth-sec{
+    
+    height: 600px;
+    background-color: burlywood;
+}
+.second-box{
+    width: 50%;
+    background-color: lightgreen;
     height: 400px;
 }
-
-
 
 
 
