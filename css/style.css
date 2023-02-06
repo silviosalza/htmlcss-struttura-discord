@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+.nav-background{
+    
+    /* debug */
+    background-color: lightblue; 
+    height: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
