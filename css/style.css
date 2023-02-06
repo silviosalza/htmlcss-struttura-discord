@@ -12,6 +12,12 @@
     justify-content: space-around;
     align-items: center;  
 }
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .container{
     height: 400px;
 
@@ -22,7 +28,7 @@
 .nav-background{
     height: 100px;
     /* debug */
-    background-color: lightblue; 
+    background-color: rgb(107, 30, 30); 
 }
 
 .header-nav ul{
@@ -39,8 +45,8 @@
 }
 .first-box{
     background-color: lightpink;
-    width: 50%;
-    height: 320px;
+    width: 40%;
+    height: 300px;
     border: dashed black;
 }
 /* ------------------------------------------- */
@@ -84,14 +90,33 @@
 
 .fourth-sec{
     
-    height: 600px;
+    height: 550px;
     background-color: burlywood;
 }
 .second-box{
     width: 50%;
     background-color: lightgreen;
-    height: 400px;
+    height: 480px;
+    border: dashed black;
+}
+/* ---------------------------------------------------------- */
+
+/* 5° section */
+.fifth-sec{
+    height: 450px ;
+    background-color: rgb(33, 31, 49);
 }
 
+.col{
+    width: 8%;
+    height: 350px;
+    background-color: lavender;
+    border: dashed white;
+}
+.col2{
+    width: 18%;
+    height: 350px;
+    background-color: rgb(255, 181, 132);
+    border: dashed white;
 
-
+}
