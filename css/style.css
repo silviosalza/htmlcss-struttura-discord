@@ -20,28 +20,41 @@
 }
 .container{
     height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 /* ---------------------------------------- */
 
 /* NAV BAR */
 
-
+.logo,
+.header-nav,
+.login{
+    border: dashed black;
+    padding: 10px;
+}
+.logo,
+.login{
+    width: 10%;
+}
+.header-nav{
+    flex-grow: 1;
+}
 
 .nav-container{
     background-color: brown;
     height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
     
 }
 
 .nav-background{
     width: 50%;
-    background-color: rgb(255, 237, 124);
-    padding: 10px;
+    background-color: rgb(255, 237, 124); 
     
 }
-
-
 
 .header-nav ul{
     list-style: none;
@@ -102,6 +115,8 @@
 
 .fourth-sec{
     
+    max-width: 1200px;
+    margin: 0 auto;
     height: 550px;
     background-color: burlywood;
 }
@@ -116,6 +131,8 @@
 /* 5° section */
 .fifth-sec{
     height: 450px ;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: rgb(33, 31, 49);
 }
 
@@ -141,6 +158,8 @@ footer{
 }
 .footer{
     width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: antiquewhite;
     padding: 10px 0;
 }
